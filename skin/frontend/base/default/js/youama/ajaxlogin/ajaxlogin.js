@@ -30,7 +30,7 @@
  * jQuery(TM) youamaAjaxlogin plugin
  * @author David Belicza
  */
-(function($) {
+;(function($) {
     $.fn.youamaAjaxLogin = function(options) {
 
         var opts = $.extend({}, $.fn.youamaAjaxLogin.defaults, options);
